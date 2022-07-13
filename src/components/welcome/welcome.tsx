@@ -17,7 +17,7 @@ const Img = styled.img`
 
 export function Welcome() {
   const { width, height } = useWindowDimensions()
-  console.log('Welcome')
+  console.log(x)
   return (
     <div
       style={{
