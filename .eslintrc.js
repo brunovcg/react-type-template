@@ -31,6 +31,7 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'comma-dangle': ['error', 'never'],
     'no-console': ['warn'],
-    'no-debugger': ['warn']
+    'no-debugger': ['warn'],
+    'prefer-const': ['error']
   }
 }
