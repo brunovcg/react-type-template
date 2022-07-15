@@ -6,7 +6,12 @@ module.exports = {
   },
   settings: {
     react: {
-      version: 'detect'
+      version: 'detect',
+      'import/resolver': {
+        webpack: {
+          config: 'webpack.common.js'
+        }
+      }
     }
   },
   extends: [

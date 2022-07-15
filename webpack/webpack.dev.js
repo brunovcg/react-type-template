@@ -7,12 +7,12 @@ module.exports = {
   devServer: {
     hot: true,
     open: true,
-    port: 3000,
+    port: 3000
   },
   plugins: [
     new ReactRefreshWebpackPlugin(),
     new webpack.DefinePlugin({
-      'process.env.name': JSON.stringify('Development'),
-    }),
-  ],
+      'process.env.name': JSON.stringify('Development')
+    })
+  ]
 }
