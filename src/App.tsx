@@ -1,4 +1,4 @@
-import { Router } from './routes/router'
+import { Router } from '@/routes/router'
 
 export function App() {
   return <Router />

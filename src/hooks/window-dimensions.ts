@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { screenBreakpoints } from '../configs/screen-breakpoint'
+import { screenBreakpoints } from '@/configs/screen-breakpoint'
 
 const getWindowDimensions = () => {
   const { innerWidth: width, innerHeight: height } = window

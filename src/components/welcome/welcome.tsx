@@ -1,5 +1,5 @@
-import { useWindowDimensions } from '../../hooks/window-dimensions'
-import LOGO from '../../assets/react.ico'
+import { useWindowDimensions } from '@/hooks/window-dimensions'
+import LOGO from '@/assets/react.ico'
 import styled, { keyframes } from 'styled-components'
 
 const rotate = keyframes`
